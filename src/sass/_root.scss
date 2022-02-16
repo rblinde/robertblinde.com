@@ -1,0 +1,13 @@
+:root {
+  --white: #ffffff;
+
+  --global-transition-time: 0.2s;
+  --scroll-behaviour: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --global-transition-time: 0;
+    --scroll-behaviour: auto;
+  }
+}
