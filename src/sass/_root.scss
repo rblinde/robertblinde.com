@@ -1,5 +1,14 @@
 :root {
   --white: #ffffff;
+  --blue: #0050f5;
+
+  --font-family-heading: "Martel Heavy", serif;
+  --font-weight-heading: 900;
+  --font-family-main: "Anonymous Pro", monospace;
+  --font-weight-main: 400;
+
+  --color-bg: var(--white);
+  --color-fg: var(--blue);
 
   --global-transition-time: 0.2s;
   --scroll-behaviour: smooth;

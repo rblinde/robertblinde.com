@@ -8,6 +8,28 @@ html {
   scroll-behavior: var(--scroll-behaviour);
 }
 
+body {
+  @include font_main;
+  font-size: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
